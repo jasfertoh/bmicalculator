@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: lightblue;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+table td {
+    border: 1px solid black;
+}
+
+img {
+    height: 300px;
+    width: 500px;
+}
+
+button {
+    padding: 10px;
+    background-color: lavender;
+    border: 1px solid grey;
+}

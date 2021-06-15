@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>BMI Calculator</h1>
+    <img src="chart.jpg" alt="image">
+    <p>Please enter your weight in kg:</p>
+    <input type="number" id="weight">
+    <p>Please enter your height in metres:</p>
+    <p>
+        <input type="number" id="height">
+    </p>
+    <p>
+        <button onclick="Calc()">Calculate</button>
+    </p>
+    <p>
+        <button onclick="Reset()">Reset</button>
+    </p>
+    <p>
+        <label>
+            BMI: <input type="number" id="bmi" readonly>
+        </label>
+    </p>
+    <p>
+        <label>
+            Result: <input type="text" id="result" readonly>
+        </label>
+    </p>
+
+    <table>
+        <ul>
+            <tr>
+                <td>S/N</td>
+                <td>BMI Specifications</td>
+                <td>Result</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>If BMI <= 18.5</td>
+                <td>You are underweight!</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>If BMI > 18.5 && BMI <= 25.0</td>
+                <td>You are of normal range.</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Else</td>
+                <td>You are overweight!</td>
+            </tr>
+        </ul>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
